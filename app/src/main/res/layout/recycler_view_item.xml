@@ -1,0 +1,37 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    card_view:cardBackgroundColor="@color/textIcons"
+    card_view:contentPadding="@dimen/card_view_padding"
+    card_view:cardCornerRadius="@dimen/card_view_corner_radius">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recyclerViewItemTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/primaryText"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/recyclerViewItemContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:textColor="@color/secondaryText"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

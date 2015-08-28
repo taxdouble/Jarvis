@@ -1,0 +1,9 @@
+<resources>
+    <style name="JarvisTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+        <item name="colorAccent">#448AFF</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

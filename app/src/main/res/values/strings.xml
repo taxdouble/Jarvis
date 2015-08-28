@@ -1,0 +1,28 @@
+<resources>
+    <!-- Application: -->
+    <string name="app_name">Jarvis</string>
+    <!-- Activity:: -->
+    <string name="activity_main_name">Jarvis</string>
+    <string name="activity_editor_name">Editor</string>
+    <!-- Fragment: -->
+    <string name="fragment_primary_name">Primary</string>
+    <string name="fragment_archive_name">Archive</string>
+    <string name="fragment_trash_name">Trash</string>
+    <!-- Menu: -->
+    <string name="menu_primary_name">Primary Notes</string>
+    <string name="menu_archive_name">Archived Notes</string>
+    <string name="menu_trash_name">Trashed Notes</string>
+    <!-- Action: -->
+    <string name="action_drawer_open">Open</string>
+    <string name="action_drawer_close">Close</string>
+    <string name="action_empty_trash">Empty Trash</string>
+    <string name="action_scroll_to_top">Scroll To Top</string>
+    <!-- Hint: -->
+    <string name="hint_editor_title">Title</string>
+    <string name="hint_editor_content">Content</string>
+    <!-- Snackbar: -->
+    <string name="snackbar_archived">Archived note.</string>
+    <string name="snackbar_trashed">Trashed note.</string>
+    <string name="snackbar_deleted">Deleted note.</string>
+    <string name="snackbar_deleted_all">Deleted all note.</string>
+</resources>

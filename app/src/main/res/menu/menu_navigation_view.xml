@@ -1,0 +1,17 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navigationViewPrimary"
+            android:icon="@drawable/ic_action_book"
+            android:title="@string/menu_primary_name"/>
+        <item
+            android:id="@+id/navigationViewArchive"
+            android:icon="@drawable/ic_action_archive"
+            android:title="@string/menu_archive_name"/>
+        <item
+            android:id="@+id/navigationViewTrash"
+            android:icon="@drawable/ic_action_delete"
+            android:title="@string/menu_trash_name"/>
+    </group>
+</menu>
